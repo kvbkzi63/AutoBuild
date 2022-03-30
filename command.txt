@@ -1,0 +1,10 @@
+option batch abort
+option confirm off
+open 遠端FTP位置+帳號密碼
+cd AutoDeploy/ReceiveFolder/TPH/Test/
+put D:\Deploy\TPH\Test\Client.7z 
+put D:\Deploy\TPH\Test\Server.7z 
+put C:\Users\Administrator\Desktop\HISAutoBuild\log\2018_06_19\briefHistory.log 
+put C:\Users\Administrator\Desktop\HISAutoBuild\log\2018_06_19\detailHistory.log 
+close
+exit

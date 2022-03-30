@@ -1,0 +1,1 @@
+Test,´ú¸Õ¾÷,{IP},AutoDeploy/ReceiveFolder/TPH,FTPUSER,FTPPD
